@@ -1,0 +1,25 @@
+.glasspriv {
+    width: 90%;
+    border-radius: 8px;
+    height: 200vh;
+    content: "";
+
+    backdrop-filter: blur(10px);
+
+    background: rgba(255, 255, 255, 0.1);
+
+    margin-top: 5%;
+    margin-left: 5%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.glasspriv h1 {
+    color: aliceblue;
+    padding: 15px;
+}
+
+.glasspriv p {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+}
